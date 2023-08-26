@@ -1,0 +1,7 @@
+asgiref==3.7.2
+mutagen==1.46.0
+psycopg2==2.9.7
+pydub==0.25.1
+sqlparse==0.4.4
+typing_extensions==4.7.1
+tzdata==2023.3
