@@ -7,9 +7,10 @@ This is a Django project that allows users to upload audio files, extract audio 
 1. Clone this repository to your local machine.
 2. Create a virtual environment and activate it.
 3. Install the project dependencies using the command: `pip install -r requirements.txt`
-4. Make database migrations: `python manage.py makemigrations` and `python manage.py migrate`
-5. Create a superuser: `python manage.py createsuperuser`
-6. Run the development server: `python manage.py runserver`
+4. Read readme.txt 
+5. Make database migrations: `python manage.py makemigrations` and `python manage.py migrate`
+6. Create a superuser: `python manage.py createsuperuser`
+7. Run the development server: `python manage.py runserver`
 
 ## Usage
 

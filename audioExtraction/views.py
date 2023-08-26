@@ -49,6 +49,8 @@ def audio_extraction(request):
     Returns:
         HttpResponse: The response containing the rendered template.
     """
+    # here i am using default user id (the user that i have created)
+    # you can user your user id 
     audio_features = AudioFeatures.objects.filter(user_id=6)
 
     # Preprocess the data
@@ -79,7 +81,6 @@ def audio_extraction(request):
         if form.is_valid():
 
             # Get the user (Default user)
-            # created using admin page 
             user = get_user_model().objects.get(id=6)  
 
             

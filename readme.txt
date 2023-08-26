@@ -1,0 +1,17 @@
+1. I am using postgreSQL so in settings.py make changes accordingly
+example:-
+ 'ENGINE': 'django.db.backends.postgresql',  # Specify the database engine
+        'NAME': 'your_database_name',  # Replace with your actual database name
+        'USER': 'your_database_user',  # Replace with your actual database username
+        'PASSWORD': 'your_database_password',  # Replace with your actual database password
+        'HOST': 'localhost',  # Replace with your actual database host
+        'PORT': '5432',  # Replace with your actual database port
+
+2. In views.py i am using default user/ static user id (user that i have created) for inserting data and viewing
+    # here i am using default user id (the user that i have created)
+    audio_features = AudioFeatures.objects.filter(user_id=your_user's_id)
+
+    # Get the user (Default user)
+    user = get_user_model().objects.get(id=your_user's_id)  
+
+Here you can add you user_id 
