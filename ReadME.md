@@ -23,4 +23,5 @@ This is a Django project that allows users to upload audio files, extract audio 
 - Django
 - mutagen
 - pydub
-
+- PostgreSQL 
+- psycopg2
